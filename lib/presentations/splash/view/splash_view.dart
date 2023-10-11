@@ -28,7 +28,7 @@ class _SplashViewState extends State<SplashView> {
           if (!state.isLoggedIn) {
             router.replace(const LoginRoute());
           } else {
-            // router.replace(const DashboardRoute);
+            router.replace(const DashboardRoute());
           }
         }
       },
