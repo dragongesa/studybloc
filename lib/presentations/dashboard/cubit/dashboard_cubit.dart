@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:studybloc/domain/repositories/weather_repository.dart';
-import 'package:studybloc/presentations/dashboard/cubit/dashboard_state.dart';
+import '../../../domain/repositories/weather_repository.dart';
+import 'dashboard_state.dart';
 
 class DashboardCubit extends Cubit<DashboardState> {
   DashboardCubit(super.initialState, {required this.repository});

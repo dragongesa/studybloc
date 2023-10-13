@@ -1,10 +1,10 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:studybloc/domain/entities/weather_clouds/weather_clouds_entity.dart';
-import 'package:studybloc/domain/entities/weather_coord/weather_coord_entity.dart';
-import 'package:studybloc/domain/entities/weather_data/weather_data_entity.dart';
-import 'package:studybloc/domain/entities/weather_main/weather_main_entity.dart';
-import 'package:studybloc/domain/entities/weather_sys/weather_sys_entity.dart';
-import 'package:studybloc/domain/entities/weather_wind/weather_wind_entity.dart';
+import '../weather_clouds/weather_clouds_entity.dart';
+import '../weather_coord/weather_coord_entity.dart';
+import '../weather_data/weather_data_entity.dart';
+import '../weather_main/weather_main_entity.dart';
+import '../weather_sys/weather_sys_entity.dart';
+import '../weather_wind/weather_wind_entity.dart';
 
 part 'weather_entity.freezed.dart';
 part 'weather_entity.g.dart';

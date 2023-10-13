@@ -1,8 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:studybloc/presentations/presentations.dart';
-import 'package:studybloc/router/router.dart';
+import '../../presentations.dart';
+import '../../../router/router.dart';
 
 @RoutePage()
 class SplashView extends StatefulWidget {

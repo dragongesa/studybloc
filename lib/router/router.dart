@@ -1,5 +1,5 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:studybloc/presentations/presentations.dart';
+import '../presentations/presentations.dart';
 
 part 'router.gr.dart';
 
