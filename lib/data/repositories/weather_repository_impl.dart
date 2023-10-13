@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:studybloc/domain/entities/weather_entity.dart';
-import 'package:studybloc/domain/repositories/weather_repository.dart';
+import '../../domain/entities/weather/weather_entity.dart';
+import '../../domain/repositories/weather_repository.dart';
 
 class WeatherRepositoryImpl implements WeatherRepository {
   final Dio http;

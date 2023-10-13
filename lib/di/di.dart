@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
-import 'package:studybloc/data/repositories/weather_repository_impl.dart';
-import 'package:studybloc/domain/repositories/weather_repository.dart';
-import 'package:studybloc/presentations/dashboard/cubit/dashboard_state.dart';
-import 'package:studybloc/presentations/presentations.dart';
+import '../data/repositories/weather_repository_impl.dart';
+import '../domain/repositories/weather_repository.dart';
+import '../presentations/dashboard/cubit/dashboard_state.dart';
+import '../presentations/presentations.dart';
 
 final di = GetIt.instance;
 
